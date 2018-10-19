@@ -1,11 +1,15 @@
-import Vue from 'vue'
-import Router from 'vue-router'
+import Vue from 'vue';
+import Router from 'vue-router';
 
-import Home from '../page/Home'
-import Login from '../page/Login'
-import Details from '../page/Details'
+import Home from '../page/Home';
+  import HomeMaleContainer from '../components/HomeMaleContainer.vue';
+  import HomeFamaleContainer from '../components/HomeFamaleContainer.vue';
+  import HomePublishContainer from '../components/HomePublishContainer.vue';
 
-Vue.use(Router)
+import Login from '../page/Login';
+import Details from '../page/Details';
+
+Vue.use(Router);
 
 export default new Router({
   routes: [
@@ -21,31 +25,19 @@ export default new Router({
       props:true,
       children:[
         {
-          path:'/mt_famale',
-          name:'mt_famale',
-          component:{
-            template:`<div>
-              这就是女版
-            </div>`
-          }
-        },
-        {
           path:'/mt_male',
           name:'mt_male',
-          component:{
-            template:`<div>
-              这就是男版
-            </div>`
-          }
+          component: HomeMaleContainer
+        },
+        {
+          path:'/mt_famale',
+          name:'mt_famale',
+          component: HomeFamaleContainer
         },
         {
           path:'/mt_publish',
           name:'mt_publish',
-          component:{
-            template:`<div>
-              这就是出版
-            </div>`
-          }
+          component: HomePublishContainer
         }
       ]
     },
