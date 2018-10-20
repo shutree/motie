@@ -1,9 +1,6 @@
 <template>
   <div class="Collection">
-    <mt-header class="k" title="进入更多分类 >">
-      <router-link to="/" slot="left">
-      </router-link>
-    </mt-header>
+    
   </div>
 </template>
 
