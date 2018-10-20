@@ -38,88 +38,87 @@
 </template>
 
 <script>
+import { Header } from "mint-ui";
 
-import { Header } from 'mint-ui';
-	export default {
-		data(){
-			return {
-				msg:''
-			}
-		}
-	}
+export default {
+  data() {
+    return {
+      msg: ""
+    };
+  }
+};
 </script>
-<style lang="scss">
-	.login-container{
-		margin:0 20px;
-		font-size:12px;
-		p{
-			
-			border:1px solid #ccc;
-			height:40px;
-			margin:20px 0;
-			input{
-				outline:none;
-				width:300px;
-				border:none;
-				height:40px;
-				line-height:40px;
-			}
-		}
-		p.login-icon{
-			padding-left:5px;
-			input{
-				padding-left:5px;
-			}
-		}
-		.code{
-			border:none;
-			overflow:hidden;
-			.login-code{
-				width:200px;
-				border:1px solid #ccc;
-				float:left;
-				height:38px;
-			}
-			span{
-				float:right;
-				display:inline-block;
-				width:100px;
-				height:38px;
-				line-height:40px;
-				text-align:center;
-				border:1px solid #ccc;
-			}
-		}
-		.check{
 
-			overflow:hidden;
-			h4{
-				float:left;
-			}
-			input{
-				width:18px;
-				vertical-align:middle;
-			}
-			a{
-				float:right;
-				color: #419af4;
-			}
-		}
-		.submit{
-			margin:20px 0;
-			width:335px;
-			border:1px solid #ccc;
-			height:40px;
-			line-height:40px;
-			background: #419af4;
-			color:#fff;
-		}
-		.coor{
-			svg{
-				width:50px;
-				margin:10px 10px;
-				height:50px;
-			}
-		}
-	}
+<style lang="scss">
+.login-container {
+  margin: 0 20px;
+  font-size: 12px;
+  p {
+    border: 1px solid #ccc;
+    height: 40px;
+    margin: 20px 0;
+    input {
+      outline: none;
+      width: 300px;
+      border: none;
+      height: 40px;
+      line-height: 40px;
+    }
+  }
+  p.login-icon {
+    padding-left: 5px;
+    input {
+      padding-left: 5px;
+    }
+  }
+  .code {
+    border: none;
+    overflow: hidden;
+    .login-code {
+      width: 200px;
+      border: 1px solid #ccc;
+      float: left;
+      height: 38px;
+    }
+    span {
+      float: right;
+      display: inline-block;
+      width: 100px;
+      height: 38px;
+      line-height: 40px;
+      text-align: center;
+      border: 1px solid #ccc;
+    }
+  }
+  .check {
+    overflow: hidden;
+    h4 {
+      float: left;
+    }
+    input {
+      width: 18px;
+      vertical-align: middle;
+    }
+    a {
+      float: right;
+      color: #419af4;
+    }
+  }
+  .submit {
+    margin: 20px 0;
+    width: 335px;
+    border: 1px solid #ccc;
+    height: 40px;
+    line-height: 40px;
+    background: #419af4;
+    color: #fff;
+  }
+  .coor {
+    svg {
+      width: 50px;
+      margin: 10px 10px;
+      height: 50px;
+    }
+  }
+}
 </style>
