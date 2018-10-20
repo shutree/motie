@@ -1,5 +1,5 @@
 <template>
-  <div class="Collection">
+  <div class="wanben">
     
   </div>
 </template>
@@ -12,7 +12,7 @@ export default {
 </script>
 
 <style lang="scss">
-  .Collection{
+  .wanben{
     
   }
 </style>
