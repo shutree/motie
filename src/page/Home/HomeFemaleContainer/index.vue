@@ -5,6 +5,7 @@
     <RecommendBox></RecommendBox>
     <PersonalRecommend></PersonalRecommend>
     <MainClassification></MainClassification>
+    <Collection></Collection>
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import CategoryBar from "./CategoryBar.vue";
 import RecommendBox from "./RecommendBox.vue";
 import PersonalRecommend from "./PersonalRecommend.vue";
 import MainClassification from "./MainClassification.vue";
+import Collection from "./Collection.vue";
 
 export default {
   components: {
@@ -21,7 +23,8 @@ export default {
     CategoryBar,
     RecommendBox,
     PersonalRecommend,
-    MainClassification
+    MainClassification,
+    Collection
   }
 };
 </script>

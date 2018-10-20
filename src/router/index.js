@@ -8,8 +8,9 @@ import Home from '../page/Home/index.vue';
 
 import Login from '../page/Login';
 import Details from '../page/Details';
-import Ranking from '../page/Ranking';
-import Click from '../page/Click';
+import Ranking from '../page/Ranking'
+import Click from '../page/Click'
+import Acc from '../page/Acc'
 
 
 Vue.use(Router);
@@ -65,6 +66,11 @@ export default new Router({
       component:{
         template:`<div>分类页</div>`
       }
+    },
+    {
+      path: '/Acc',
+      name: 'acc',
+      component:Acc
     }
   ]
 })
