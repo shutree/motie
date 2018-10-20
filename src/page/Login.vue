@@ -7,11 +7,11 @@
 		  <mt-button slot="right">注册</mt-button>
 		</mt-header>
 		<div class="login-container">
-			<p>
+			<p class="login-icon">
 				<font-awesome-icon icon="coffee" />
 				<input type="text" placeholder="邮箱/手机号" />
 			</p>
-			<p>
+			<p class="login-icon">
 				<font-awesome-icon icon="coffee" />
 				<input type="password" placeholder="密码" />
 			</p>
@@ -53,6 +53,7 @@ import { Header } from 'mint-ui';
 		margin:0 20px;
 		font-size:12px;
 		p{
+			
 			border:1px solid #ccc;
 			height:40px;
 			margin:20px 0;
@@ -62,6 +63,12 @@ import { Header } from 'mint-ui';
 				border:none;
 				height:40px;
 				line-height:40px;
+			}
+		}
+		p.login-icon{
+			padding-left:5px;
+			input{
+				padding-left:5px;
 			}
 		}
 		.code{
