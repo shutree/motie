@@ -63,6 +63,12 @@ export default new Router({
       path: '/Click',
       name: 'click',
       component: Click
+    },
+      path: '/category',
+      name: 'category',
+      component:{
+        template:`<div>分类页</div>`
+      }
     }
   ]
 })
