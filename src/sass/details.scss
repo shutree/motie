@@ -1,0 +1,113 @@
+.mint-header-button.is-righ{
+  position:relative;
+}
+
+
+.book_mod {
+  padding-bottom: 10px;
+  background: #fff;
+  position: relative;
+  width: 100%;
+  height: 120px;
+  z-index: 0;
+  .cover {
+    position: absolute;
+    height: 120px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+  .shadow {
+    background: #000;
+    opacity: .8;
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+  }
+  .dl_a {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+  }
+  .detail_table {
+    padding: 20px 10px 0 20px;
+    border: none;
+    overflow: hidden;
+    dt {
+      width: 80px;
+      height: 112px;
+      padding-right: 12px;
+      position: relative;
+      float:left;
+      span {
+        border-radius: 15px 0 0 0;
+        display: block;
+        color: #fff !important;
+        text-align: center;
+        right: 12px;
+        bottom: 0;
+        position: absolute;
+        width: 50px;
+        letter-spacing: 1px;
+        padding-left: 2px;
+        height: 18px;
+        line-height: 18px;
+        font-size: 10px;
+      }
+    }
+  }
+  .detail_table dd {
+    -moz-box-flex: 1.0;
+    -webkit-box-flex: 1.0;
+    box-flex: 1.0;
+    color: #999;
+    word-wrap: break-word;
+    font-size: 12px;
+    h1{
+      padding-bottom:5px;
+      color:#000;
+      font-size:16px;
+    }
+    p span {
+        display: block;
+        line-height: 20px;
+    }
+    p span.cc {
+      color: #ccc;
+      padding-top: 3px;
+    }
+    p b {
+      display: block;
+      position: absolute;
+      bottom: 20px;
+      right: 0;
+      font-weight: normal;
+      i {
+        font-style: normal;
+        display: inline-block;
+        margin-right: 6px;
+        border-radius: 10px;
+        color: #fff;
+        padding: 0 5px;
+        line-height: 20px;
+        text-align: center;
+        font-size: 10px;
+      }
+      .xuanhuan {
+        background: #72a0ff !important;
+      }
+      .dushi {
+        background: #6fd2cf !important;
+      }
+    }
+
+  }
+}
