@@ -3,7 +3,9 @@
     <input />
     <ul class="m-n-channel">
       <li :key="index" v-for="( item, index ) in items">
-        <a href="#"><img :src="item.imgUrl" /><span>{{item.title}}</span></a>
+        <router-link :to="item.to">
+          <img :src="item.imgUrl" /><span>{{item.title}}</span>
+        </router-link>
       </li>
     </ul>
   </div>
@@ -15,10 +17,10 @@ export default {
   data(){
     return {
       items: [
-        { title: '分类', imgUrl: 'http://pic.motieimg.com/img/148767081007254523_80_80.png', linkUrl: '#'},
-        { title: '分类', imgUrl: 'http://pic.motieimg.com/img/148767081007254523_80_80.png', linkUrl: '#'},
-        { title: '分类', imgUrl: 'http://pic.motieimg.com/img/148767081007254523_80_80.png', linkUrl: '#'},
-        { title: '分类', imgUrl: 'http://pic.motieimg.com/img/148767081007254523_80_80.png', linkUrl: '#'}
+        { title: '分类', imgUrl: 'http://pic.motieimg.com/img/148767081007254523_80_80.png', to: '#'},
+        { title: '排行', imgUrl: 'http://pic.motieimg.com/img/148767081007254523_80_80.png', to: '/ranking'},
+        { title: '完本', imgUrl: 'http://pic.motieimg.com/img/148767081007254523_80_80.png', to: '#'},
+        { title: '免费', imgUrl: 'http://pic.motieimg.com/img/148767081007254523_80_80.png', to: '#'}
       ]
     }
   }

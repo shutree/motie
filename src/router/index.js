@@ -50,7 +50,7 @@ export default new Router({
       component: Details
     },
     {
-      path: '/Ranking',
+      path: '/ranking',
       name: 'ranking',
       component: Ranking
     },
