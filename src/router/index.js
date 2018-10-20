@@ -50,6 +50,13 @@ export default new Router({
       path: '/details',
       name: 'details',
       component: Details
+    },
+    {
+      path: '/category',
+      name: 'category',
+      component:{
+        template:`<div>分类页</div>`
+      }
     }
   ]
 })
