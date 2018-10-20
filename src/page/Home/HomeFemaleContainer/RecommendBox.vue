@@ -30,12 +30,9 @@ export default {
       }
     });
 
-    this.getContainerWidth();
   },
   methods: {
-    getContainerWidth() {
-      console.log(123);
-    }
+  
   }
 };
 </script>

@@ -19,6 +19,7 @@ import { Indicator } from 'mint-ui';
 Vue.prototype.$loading = Indicator;
 
 import './sass/base.scss';
+
 export default {
   name: "App"
 };

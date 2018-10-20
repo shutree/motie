@@ -1,10 +1,10 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 
-import Home from '../page/Home';
-  import HomeMaleContainer from '../components/HomeMaleContainer.vue';
-  import HomeFamaleContainer from '../components/HomeFamaleContainer.vue';
-  import HomePublishContainer from '../components/HomePublishContainer.vue';
+import Home from '../page/Home/index.vue';
+  import HomeMaleContainer from '../page/Home/HomeMaleContainer';
+  import HomeFemaleContainer from '../page/Home/HomeFemaleContainer';
+  import HomePublishContainer from '../page/Home/HomaPublishContainer';
 
 import Login from '../page/Login';
 import Details from '../page/Details';
@@ -15,11 +15,6 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component:Home
-    },
-    {
-      path: '/home',
       name: 'Home',
       component: Home,
       props:true,
@@ -32,7 +27,7 @@ export default new Router({
         {
           path:'/mt_famale',
           name:'mt_famale',
-          component: HomeFamaleContainer
+          component: HomeFemaleContainer
         },
         {
           path:'/mt_publish',
