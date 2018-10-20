@@ -8,6 +8,9 @@ import Home from '../page/Home';
 
 import Login from '../page/Login';
 import Details from '../page/Details';
+import Ranking from '../page/Ranking'
+import Click from '../page/Click'
+
 
 Vue.use(Router);
 
@@ -50,6 +53,16 @@ export default new Router({
       path: '/details',
       name: 'details',
       component: Details
+    },
+    {
+      path: '/Ranking',
+      name: 'ranking',
+      component: Ranking
+    },
+    {
+      path: '/Click',
+      name: 'click',
+      component: Click
     }
   ]
 })
