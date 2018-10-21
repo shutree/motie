@@ -7,22 +7,20 @@
           </router-link>
           <mt-button  icon="more" slot="right" @click="more">
           </mt-button>
-          <ul class="more">
-                  <li>你好</li>
-              </ul>
+          <ul class="more"></ul>
         </mt-header>
         <ul>
                 <li class="li"  :key="index" v-for="(card, index) in 6">
-                <div class="left">
-                    <img src="./paihang.jpg" height="172" width="240" alt="" />
-                </div>
-                <div class="right">
-                    <p><font-awesome-icon icon="coffee" /><a href=" ">画圣 </a></p>
-                    <p><font-awesome-icon icon="coffee" /><a href=" ">1314便利店 </a></p>
-                    <p><font-awesome-icon icon="coffee" /><a href=" ">龙王妻 </a></p>
-                    <span @click="click">></span>
-                    
-                </div>
+                    <div class="left">
+                        <img src="./paihang.jpg" height="172" width="240" alt="" />
+                    </div>
+                    <div class="right">
+                        <p><font-awesome-icon icon="coffee" /><a href=" ">画圣 </a></p>
+                        <p><font-awesome-icon icon="coffee" /><a href=" ">1314便利店 </a></p>
+                        <p><font-awesome-icon icon="coffee" /><a href=" ">龙王妻 </a></p>
+                        <span @click="click">></span>
+                        
+                    </div>
             </li>
         </ul>
     </div>
@@ -53,7 +51,7 @@
 .left{
     float:left;
     height:150px;
-    width:50%;
+    width:40%;
     position:relative;
         img{
              height:100px;
@@ -70,10 +68,10 @@
 .right{
     float:left;
     height:150px;
-    width:50%;
+    width:40%;
     position:relative;
         p{
-            padding-top:30px;
+            padding-top:20px;
             font-size:12px;
             line-height:12px;
             a{
@@ -83,9 +81,8 @@
         }
         span{
             position:absolute;
-            top:50%;
+            top:36%;
             right:0;
-            margin-right:20px;
             font-size:20px;
             color:#ccc;
         }

@@ -36,7 +36,7 @@ export default {
 .left {
   float: left;
   height: 150px;
-  width: 50%;
+  width:40%;
   position: relative;
   img {
     height: 100px;
@@ -53,13 +53,18 @@ export default {
 .right {
   float: left;
   height: 150px;
-  width: 50%;
+  width: 48%;
   padding-top: 20px;
   position: relative;
+  h4{
+    height:16px;
+    width:100%;
+  }
   p {
     font-size: 12px;
     line-height: 12px;
     padding-top: 5px;
+    width:100%;
     a {
       color: black;
       margin-left: 5px;

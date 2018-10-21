@@ -22,6 +22,7 @@ export default new Router({
       name: 'Home',
       component: Home,
       props:true,
+      redirect: '/mt_famale',
       children:[
         {
           path:'/mt_male',
@@ -51,7 +52,7 @@ export default new Router({
       component: Details
     },
     {
-      path: '/Ranking',
+      path: '/ranking',
       name: 'ranking',
       component: Ranking
     },
@@ -61,16 +62,9 @@ export default new Router({
       component: Click
     },
     {
-      path: '/category',
-      name: 'category',
-      component:{
-        template:`<div>分类页</div>`
-      }
-    },
-    {
-      path: '/Acc',
+      path: '/acc',
       name: 'acc',
-      component:Acc
+      component: Acc
     }
   ]
 })

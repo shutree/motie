@@ -104,7 +104,7 @@
 
 <script>
 import { Header } from 'mint-ui';
-import '../sass/details.scss'
+import './details.scss'
 
   export default {
     data(){
