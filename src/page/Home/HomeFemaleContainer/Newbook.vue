@@ -3,6 +3,7 @@
     <h4>
       <span>新书抢先</span>
     </h4>
+
     <ul>
       <li class="li" :key="index" v-for="(card, index) in 3">
         <div class="left">
@@ -21,6 +22,7 @@
         </div>
       </li>
     </ul>
+    
   </div>
 </template>
 
