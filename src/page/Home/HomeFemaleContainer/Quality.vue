@@ -120,7 +120,8 @@
       }
       .liji {
         position: absolute;
-        top: 35px;
+        top: 50px;
+        right:20px;
         background-color: #fff;
         border: 1px solid red;
         color: red;
