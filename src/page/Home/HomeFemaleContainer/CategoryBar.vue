@@ -19,8 +19,8 @@ export default {
       items: [
         { title: '分类', imgUrl: 'http://pic.motieimg.com/img/148767081007254523_80_80.png', to: '/Acc'},
         { title: '排行', imgUrl: 'http://pic.motieimg.com/img/148767081007254523_80_80.png', to: '/Ranking'},
-        { title: '完本', imgUrl: 'http://pic.motieimg.com/img/148767081007254523_80_80.png', to: '#'},
-        { title: '免费', imgUrl: 'http://pic.motieimg.com/img/148767081007254523_80_80.png', to: '#'}
+        { title: '完本', imgUrl: 'http://pic.motieimg.com/img/148767081007254523_80_80.png', to: '/Finished'},
+        { title: '免费', imgUrl: 'http://pic.motieimg.com/img/148767081007254523_80_80.png', to: '/Free'}
       ]
     }
   }
