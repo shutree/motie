@@ -9,6 +9,8 @@
     <Quality></Quality>
     <Wireless></Wireless>
     <Newbook></Newbook>
+    <Discover></Discover>
+
 
   </div>
 </template>
@@ -21,8 +23,9 @@ import PersonalRecommend from "./PersonalRecommend.vue";
 import MainClassification from "./MainClassification.vue";
 import Collection from "./Collection.vue";
 import Quality from "./Quality.vue";
-import Wireless from "./Wireless.vue";
-import Newbook from "./Newbook.vue";
+import Wireless from "./Wireless.vue"
+import Newbook from "./Newbook.vue"
+import Discover from "./Discover.vue"
 
 export default {
   components: {
@@ -34,7 +37,8 @@ export default {
     Collection,
     Quality,
     Wireless,
-    Newbook
+    Newbook,
+    Discover
   }
 };
 </script>

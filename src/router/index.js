@@ -8,9 +8,13 @@ import Home from '../page/Home/index.vue';
 
 import Login from '../page/Login';
 import Details from '../page/Details';
-import Ranking from '../page/Ranking'
-import Click from '../page/Click'
-import Acc from '../page/Acc'
+import Ranking from '../page/Ranking';
+import Click from '../page/Click';
+import Acc from '../page/Acc';
+import Finished from '../page/Finished';
+import Free from '../page/Free';
+
+
 
 
 Vue.use(Router);
@@ -65,6 +69,16 @@ export default new Router({
       path: '/acc',
       name: 'acc',
       component: Acc
+    },
+    {
+      path: '/Finished',
+      name: 'finished',
+      component: Finished
+    },
+    {
+      path: '/Free',
+      name: 'free',
+      component: Free
     }
   ]
 })

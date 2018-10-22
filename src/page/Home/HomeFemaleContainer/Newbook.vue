@@ -1,10 +1,12 @@
 <template>
   <div class="Newbook">
-    <h4><span>新书抢先</span></h4>
+    <h4>
+      <span>新书抢先</span>
+    </h4>
     <ul>
       <li class="li" :key="index" v-for="(card, index) in 3">
         <div class="left">
-          <img src="./shc.jpg" height="133" width="100" alt="" />
+          <img src="https://cdn.motieimg.com/book/0011/111365/1.jpg?" height="133" width="100" alt="" />
         </div>
         <div class="right">
           <h4>娇妻如云</h4>
