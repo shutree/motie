@@ -1,8 +1,10 @@
 <template>
   <div class="RecommendBox">
+
     <div class="title">
       <span>主编推荐</span>
     </div>
+
     <div class="zy-RecommendBox-swiper-container" ref="swiper-container">
       <div class="swiper-wrapper">
         <div class="swiper-slide" :key="index" v-for="( book, index) in books">
@@ -13,6 +15,7 @@
     </div>
 
     <div class="zy-RecommendBox-swiper-pagination"></div>
+
   </div>
 </template>
 
@@ -20,13 +23,32 @@
 import Swiper from "swiper";
 
 export default {
-  data(){
-    return {
-      books: [
-        { name: '都市超级修仙人', imgUrl: 'https://cdn.motieimg.com/book/0009/99331/1.jpg?'},
-        { name: '岭南鬼术', imgUrl: 'https://cdn.motieimg.com/book/0011/110545/1.jpg?'},
-        { name: '女总裁的医品高手', imgUrl: 'https://cdn.motieimg.com/book/0011/111365/1.jpg?'}
-      ]
+  data() {
+    return {};
+  },
+  computed: {
+    books() {
+      console.log(111)
+      let homeData = this.$store.getters.homeData;
+      console.log(homeData);
+
+      let a = homeData.cards.recommendBooks
+
+      return a
+      // return [
+      //   {
+      //     name: "都市超级修仙人",
+      //     imgUrl: "https://cdn.motieimg.com/book/0009/99331/1.jpg?"
+      //   },
+      //   {
+      //     name: "岭南鬼术",
+      //     imgUrl: "https://cdn.motieimg.com/book/0011/110545/1.jpg?"
+      //   },
+      //   {
+      //     name: "女总裁的医品高手",
+      //     imgUrl: "https://cdn.motieimg.com/book/0011/111365/1.jpg?"
+      //   }
+      // ];
     }
   },
   mounted: function() {
@@ -38,10 +60,10 @@ export default {
         clickable: true
       }
     });
-
-  },
-  methods: {
-
+    // setTimeout(() => {
+    //   this.books = this.$store.getters.homeData;
+    //   console.log(this.books);
+    // }, 1000);
   }
 };
 </script>

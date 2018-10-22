@@ -14,19 +14,16 @@ export default {
     return {};
   },
   components: { Header },
-  mounted: function (){
+  mounted: function() {
     this.$axios({
-      url: '/static/homeData.json'
-    }).then( res => {
-      this.$store.commit({
-        type: 'LOAD_HOME_DATA',
-        homeData: res.data 
-      });
-
+      url: "/static/homeData.json"
+    }).then(res => {
       setTimeout(() => {
-        let homeData = this.$store.getters.homeData;
-        console.log(homeData)
-      }, 3000);
+        this.$store.commit({
+          type: "LOAD_HOME_DATA",
+          homeData: res.data
+        });
+      }, 2000);
     });
   }
 };

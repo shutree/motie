@@ -1,7 +1,7 @@
 {
   "code": 200,
   "cards": {
-    "主编推荐": [
+    "recommendBooks": [
       {
         "name": "都市超级修仙人",
         "imgUrl": "https://cdn.motieimg.com/book/0009/99331/1.jpg?"

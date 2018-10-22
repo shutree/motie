@@ -7,20 +7,19 @@ export default new Vuex.Store({
   state: {
     homeData: {}
   },
+
   getters: {
     homeData: state => {
       return state.homeData
     }
   },
+
   mutations: {
     LOAD_HOME_DATA(state, payLoad) {
-      console.log(payLoad)
-      state = {
-        ...state,
-        homeData: payLoad.homeData
-      }
+      state.homeData = payLoad.homeData
     }
   },
+
   actions: {
 
   }
