@@ -7,7 +7,7 @@
 
     <div class="zy-RecommendBox-swiper-container" ref="swiper-container">
       <div class="swiper-wrapper">
-        <div class="swiper-slide" :key="index" v-for="( book, index) in books">
+        <div class="swiper-slide" :key="index" v-for="( book, index) in recommendBooks">
           <img style="width: 100px" :src='book.imgUrl'>
           <span class="name">{{book.name}}</span>
         </div>
@@ -24,46 +24,26 @@ import Swiper from "swiper";
 
 export default {
   data() {
-    return {};
+    return {
+      zy_recommendBooks_swiper: null
+    };
   },
   computed: {
-    books() {
-      console.log(111)
-      let homeData = this.$store.getters.homeData;
-      console.log(homeData);
-
-      let a = homeData.cards.recommendBooks
-
-      return a
-      // return [
-      //   {
-      //     name: "都市超级修仙人",
-      //     imgUrl: "https://cdn.motieimg.com/book/0009/99331/1.jpg?"
-      //   },
-      //   {
-      //     name: "岭南鬼术",
-      //     imgUrl: "https://cdn.motieimg.com/book/0011/110545/1.jpg?"
-      //   },
-      //   {
-      //     name: "女总裁的医品高手",
-      //     imgUrl: "https://cdn.motieimg.com/book/0011/111365/1.jpg?"
-      //   }
-      // ];
+    recommendBooks() {
+      return this.$store.getters.homeCardsData.recommendBooks;
     }
   },
-  mounted: function() {
-    let zy_Swiper = new Swiper(".zy-RecommendBox-swiper-container", {
-      slidesPerView: 3,
-      slidesPerGroup: 3,
-      pagination: {
-        el: ".zy-RecommendBox-swiper-pagination",
-        clickable: true
-      }
-    });
-    // setTimeout(() => {
-    //   this.books = this.$store.getters.homeData;
-    //   console.log(this.books);
-    // }, 1000);
+  updated() {
+    if(!this.zy_recommendBooks_swiper){
+      this.zy_recommendBooks_swiper = new Swiper(".zy-RecommendBox-swiper-container", {
+        slidesPerView: 3,
+        slidesPerGroup: 3,
+        pagination: {
+          el: ".zy-RecommendBox-swiper-pagination",
+          clickable: true
+        }
+      });
+    }
   }
 };
 </script>
