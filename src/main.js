@@ -3,6 +3,7 @@
 import Vue from 'vue';
 import App from './App';
 import router from './router';
+import store from './store';
 
 import 'swiper/dist/css/swiper.css';
 
@@ -12,13 +13,14 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 library.add(faCoffee)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
 
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
+  store,
   components: { App },
   template: '<App/>'
 })

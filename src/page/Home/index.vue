@@ -14,16 +14,20 @@ export default {
     return {};
   },
   components: { Header },
-  methods: {
-    motieFamale(id) {
-      this.$router.push({ name: "mt_famale", params: { id } });
-    },
-    motieMale(id) {
-      this.$router.push({ name: "mt_male", params: { id } });
-    },
-    motiePulish(id) {
-      this.$router.push({ name: "mt_publish", params: { id } });
-    }
+  mounted: function (){
+    this.$axios({
+      url: '/static/homeData.json'
+    }).then( res => {
+      this.$store.commit({
+        type: 'LOAD_HOME_DATA',
+        homeData: res.data 
+      });
+
+      setTimeout(() => {
+        let homeData = this.$store.getters.homeData;
+        console.log(homeData)
+      }, 3000);
+    });
   }
 };
 </script>

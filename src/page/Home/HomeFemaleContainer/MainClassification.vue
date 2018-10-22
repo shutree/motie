@@ -3,12 +3,12 @@
       <div class="title">
         本期主打分类
       </div>
-      <div class="card" :key="index" v-for="(card, index) in 3">
+      <div class="card" :key="index" v-for="(book, index) in books">
         <div class="thumb_img">
-          <img style="width: 100%" src="https://cdn.motieimg.com/book/0011/111537/1.jpg?" alt="">
+          <img style="width: 100%" :src='book.imgUrl' alt="">
         </div>
         <div class="card_right">
-          <div>老子是条龙</div>
+          <div>{{book.name}}</div>
           <p>周阳</p>
           <p class="desc">黑狗，现代杀手组织的金牌杀手，一朝穿越成和哥哥通通不存在的！逆袭？美男？当厨娘？通通都来吧！</p>
         </div>
@@ -19,9 +19,31 @@
 
 <script>
 
-
 export default {
-
+  data(){
+    return {
+      books: [
+        {
+          name: "医品尖兵",
+          author: "周阳",
+          brief: "...",
+          imgUrl: "https://cdn.motieimg.com/book/0010/106584/1.jpg?"
+        },
+        {
+          name: "无人可逃",
+          author: "周阳",
+          brief: "...",
+          imgUrl: "https://cdn.motieimg.com/book/0011/110067/2.jpg?"
+        },
+        {
+          name: "蛮荒化龙决",
+          author: "周阳",
+          brief: "...",
+          imgUrl: "https://cdn.motieimg.com/book/0010/107521/1.jpg?"
+        }
+      ]
+    }
+  }
 };
 </script>
 

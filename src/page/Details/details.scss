@@ -111,3 +111,176 @@
 
   }
 }
+
+
+.details{
+  .read_txt{
+    text-align:center;
+    font-size:14px;
+    margin:10px 0;
+    span{
+      display:inline-block;
+      border:1px solid #fd6974;
+      color: #fd6974;
+      width:100px;
+      height:35px;
+      line-height:35px;
+      text-align:center;
+    }
+    span.readnow{
+      background:#fd6974;
+      color:#fff;
+    }
+    .read_txt_dels{
+      margin:10px 0;
+      color:#666;
+      line-height:20px;
+      text-indent:2em;
+    }
+  }
+  .del_btm{
+    background-color:#eee;
+  }
+  .del-list{
+    padding:10px 0;
+    ul>li{
+      background:#fff;
+      margin-bottom:10px;
+      .del_txt_title{
+        padding-left:10px;
+        font-size:16px;
+        color:#333;
+        padding-left:0;
+        height:40px;
+        line-height:40px;
+      }
+      span{
+        color:#999;
+        font-size:12px;
+        padding-left:5px;
+      }
+      .title_time{
+        float:right;
+        height:40px;
+        line-height:40px;
+      }
+      h3{
+        border-bottom:1px solid #999;
+        span:first-child{
+          padding-left:10px;
+        }
+        span:last-child{
+          float:right;
+          height:40px;
+          line-height:40px;
+          padding-right:10px;
+        }
+      }
+    }
+    ul>li.del_one{
+      border-top:1px solid #666;
+      padding:0 10px;
+    }
+    ul .del_two ul{
+      overflow:hidden;
+      li{
+        margin:10px 0;
+        float:left;
+        width:25%;
+        text-align:center;
+        line-height:20px;
+        span{
+          display:block;
+          text-align:center;
+        }
+      }
+    }
+    ul .del_three{
+      li{
+        overflow:hidden;
+        margin:30px 0;
+        .customer-img{
+          width:50px;
+          float:left;
+          padding: 0 10px 10px;
+          height: 110px;
+          overflow: hidden;
+          img{
+            width: 30px;
+            height: 30px;
+            border-radius: 20px;
+          }
+        }
+        .customer-comments{
+          overflow:hidden;
+          margin-right:10px;
+          padding-bottom:30px;
+          border-bottom:1px solid #ddd;
+          .cus-del{
+            float:left;
+            p{
+              font-size: 14px;
+              color: #333;
+              line-height: 22px;
+              margin-bottom: 8px;
+              position: relative;
+              white-space: nowrap;
+              border-bottom: none;
+              overflow: hidden;
+              text-overflow: ellipsis;
+            }
+          }
+          .con_num{
+            float:right;
+          }
+        }
+      }
+      a{
+        display:block;
+        text-align: center;
+        border-top: solid 1px #ccc;
+        height: 32px;
+        line-height: 32px;
+      }
+    }
+    ul .same-book{
+      .s1{
+        float:none;
+      }
+      ul{
+        overflow:hidden;
+        li{
+          float:left;
+          margin:10px 12px;
+        }
+      }
+      
+    }
+  }
+  .bot_ecode {
+    padding: 30px 0;
+    text-align: center;
+    width: 100%;
+    .bot_ecode .ecot_t1 {
+
+      margin-bottom: 15px;
+      font-size: 16px;
+      color: #333;
+    }
+    img {
+      width: 110px;
+      height: 110px;
+      margin: 0 auto;
+      text-align: center;
+      border: 1px solid #ddd;
+      margin: 7px;
+      clear:both;
+    }
+    .ecot_t2 {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 14px;
+      color: #999;
+    }
+  }
+}
