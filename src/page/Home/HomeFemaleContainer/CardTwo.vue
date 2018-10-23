@@ -2,12 +2,12 @@
   <div class="RecommendBox">
 
     <div class="title">
-      <span>主编推荐</span>
+      <span>{{demoCardData.title}}</span>
     </div>
 
     <div class="zy-RecommendBox-swiper-container" ref="swiper-container">
       <div class="swiper-wrapper">
-        <div class="swiper-slide" :key="index" v-for="( book, index) in recommendBooks">
+        <div class="swiper-slide" :key="index" v-for="( book, index) in books">
           <img style="width: 100px" :src='book.imgUrl'>
           <span class="name">{{book.name}}</span>
         </div>
@@ -15,7 +15,6 @@
     </div>
 
     <div class="zy-RecommendBox-swiper-pagination"></div>
-
   </div>
 </template>
 
@@ -28,9 +27,10 @@ export default {
       zy_recommendBooks_swiper: null
     };
   },
+  props: ['demoCardData'],
   computed: {
-    recommendBooks() {
-      return this.$store.getters.homeCardsData.recommendBooks;
+    books: function() {
+      return this.demoCardData.books;
     }
   },
   updated() {

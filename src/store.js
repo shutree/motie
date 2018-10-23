@@ -5,18 +5,18 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    homeCardsData: { }
+    cards: null
   },
 
   getters: {
-    homeCardsData: state => {
-      return state.homeCardsData
+    cards: state => {
+      return state.cards
     }
   },
 
   mutations: {
     LOAD_HOME_DATA(state, payLoad) {
-      state.homeCardsData = payLoad.homeCardsData
+      state.cards = payLoad.cards
     }
   },
 

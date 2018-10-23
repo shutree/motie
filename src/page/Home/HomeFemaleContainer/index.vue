@@ -2,14 +2,14 @@
   <div class="HomeFamaleContainer">
     <Carousel></Carousel>
     <CategoryBar></CategoryBar>
-    <RecommendBox></RecommendBox>
+    <cardTwo :demoCardData="demoCardData" ></cardTwo>
+    <!-- <CardTwo></CardTwo>
     <PersonalRecommend></PersonalRecommend>
     <MainClassification></MainClassification>
     <Collection></Collection>
-    <!-- <Quality></Quality> -->
     <Wireless></Wireless>
-    <ShopWindowTypeOne></ShopWindowTypeOne>
-    <Discover></Discover>
+    <CardOne></CardOne>
+    <Discover></Discover> -->
 
   </div>
 </template>
@@ -17,27 +17,34 @@
 <script>
 import Carousel from "./Carousel.vue";
 import CategoryBar from "./CategoryBar.vue";
-import RecommendBox from "./RecommendBox.vue";
+import CardTwo from "./CardTwo.vue";
 import PersonalRecommend from "./PersonalRecommend.vue";
 import MainClassification from "./MainClassification.vue";
 import Collection from "./Collection.vue";
-// import Quality from "./Quality.vue";
-import Wireless from "./Wireless.vue"
-import ShopWindowTypeOne from "./ShopWindowTypeOne.vue"
-import Discover from "./Discover.vue"
+import Wireless from "./Wireless.vue";
+import Discover from "./Discover.vue";
+
+import CardOne from "./CardOne.vue";
 
 export default {
   components: {
     Carousel,
     CategoryBar,
-    RecommendBox,
+    CardTwo,
     PersonalRecommend,
     MainClassification,
     Collection,
-    // Quality,
     Wireless,
-    ShopWindowTypeOne,
+    CardOne,
     Discover
+  },
+  computed: {
+    demoCardData(){
+      let cards = this.$store.getters.cards;
+      if(!cards) return {};
+
+      return cards.demoCardData;
+    }
   }
 };
 </script>

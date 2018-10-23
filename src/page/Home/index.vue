@@ -21,7 +21,7 @@ export default {
       setTimeout(() => {
         this.$store.commit({
           type: "LOAD_HOME_DATA",
-          homeCardsData: res.data.cards
+          cards: res.data.cards
         });
       }, 2000);
     });

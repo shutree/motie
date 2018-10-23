@@ -1,107 +1,87 @@
 {
   "code": 200,
   "cards": {
-    "banner": [
-      { "imgUrl": "https://pic.motieimg.com/img/153983461438375789_700_240.jpg"},
-      { "imgUrl": "http://pic.motieimg.com/img/151617971035306616_700_240.jpg"},
-      { "imgUrl": "https://pic.motieimg.com/img/15398273263201769_700_240.jpg"}
-    ],
-    "recommendBooks": [
-      {
-        "name": "都市超级修仙人",
-        "imgUrl": "https://cdn.motieimg.com/book/0009/99331/1.jpg?"
-      },
-      {
-        "name": "岭南鬼术",
-        "imgUrl": "https://cdn.motieimg.com/book/0011/110545/1.jpg?"
-      },
-      {
-        "name": "女总裁的医品高手",
-        "imgUrl": "https://cdn.motieimg.com/book/0011/111365/1.jpg?"
-      }
-    ],
-    "leadingBooks": {
-      "title": "本期主打分类",
-      "books":[
+    "bannerBooks": {
+      "title": "轮播图书籍",
+      "books": [
         {
           "name": "医品尖兵",
           "author": "周阳",
-          "brief": "...",
+          "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
+          "imgUrl": "https://pic.motieimg.com/img/153983461438375789_700_240.jpg"
+        },
+        {
+          "name": "医品尖兵",
+          "author": "周阳",
+          "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
+          "imgUrl": "https://pic.motieimg.com/img/153983461438375789_700_240.jpg"
+        },
+        {
+          "name": "医品尖兵",
+          "author": "周阳",
+          "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
+          "imgUrl": "https://pic.motieimg.com/img/153983461438375789_700_240.jpg"
+        }
+      ]
+    },
+    "demoCardData": {
+      "title": "主编推荐",
+      "books": [
+        {
+          "name": "医品尖兵",
+          "author": "周阳",
+          "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
           "imgUrl": "https://cdn.motieimg.com/book/0010/106584/1.jpg?"
         },
         {
           "name": "无人可逃",
           "author": "周阳",
-          "brief": "...",
+          "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
           "imgUrl": "https://cdn.motieimg.com/book/0011/110067/2.jpg?"
         },
         {
           "name": "蛮荒化龙决",
           "author": "周阳",
-          "brief": "...",
+          "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
+          "imgUrl": "https://cdn.motieimg.com/book/0010/107521/1.jpg?"
+        },
+        {
+          "name": "医品尖兵",
+          "author": "周阳",
+          "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
+          "imgUrl": "https://cdn.motieimg.com/book/0010/106584/1.jpg?"
+        },
+        {
+          "name": "无人可逃",
+          "author": "周阳",
+          "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
+          "imgUrl": "https://cdn.motieimg.com/book/0011/110067/2.jpg?"
+        },
+        {
+          "name": "蛮荒化龙决",
+          "author": "周阳",
+          "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
+          "imgUrl": "https://cdn.motieimg.com/book/0010/107521/1.jpg?"
+        },
+        {
+          "name": "医品尖兵",
+          "author": "周阳",
+          "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
+          "imgUrl": "https://cdn.motieimg.com/book/0010/106584/1.jpg?"
+        },
+        {
+          "name": "无人可逃",
+          "author": "周阳",
+          "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
+          "imgUrl": "https://cdn.motieimg.com/book/0011/110067/2.jpg?"
+        },
+        {
+          "name": "蛮荒化龙决",
+          "author": "周阳",
+          "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
           "imgUrl": "https://cdn.motieimg.com/book/0010/107521/1.jpg?"
         }
       ]
-    },
-    "书友收藏":[
-      {
-        "name": "医品尖兵",
-        "author": "...",
-        "brief": "...",
-        "imgUrl": "https://cdn.motieimg.com/book/0010/106584/1.jpg?"
-      },
-      {
-        "name": "无人可逃",
-        "author": "...",
-        "brief": "...",
-        "imgUrl": "https://cdn.motieimg.com/book/0011/110067/2.jpg?"
-      },
-      {
-        "name": "蛮荒化龙决",
-        "author": "...",
-        "brief": "...",
-        "imgUrl": "https://cdn.motieimg.com/book/0010/107521/1.jpg?"
-      }
-    ],
-    "完本精品":[
-      {
-        "name": "丧尸爆发之全家求生路",
-        "author": "神爱朵朵",
-        "brief": "十七岁那年，爷爷亲手砍掉了我的手指，从此，我便正式成为一名敛骨人",
-        "imgUrl": "https://cdn.motieimg.com/book/0003/34295/5.jpg?"
-      },
-      {
-        "name": "特种狂兵",
-        "author": "剑锋同志",
-        "brief": "十七岁那年，爷爷亲手砍掉了我的手指，从此，我便正式成为一名敛骨人",
-        "imgUrl": "https://cdn.motieimg.com/book/0008/85082/2.jpg?"
-      },
-      {
-        "name": "黄泉诡局",
-        "author": "小三胖子",
-        "brief": "十七岁那年，爷爷亲手砍掉了我的手指，从此，我便正式成为一名敛骨人",
-        "imgUrl": "https://cdn.motieimg.com/book/0010/106115/1.jpg?"
-      }
-    ],
-    "无线风向榜":[
-      {
-        "name": "万能神戒",
-        "author": "神爱朵朵1",
-        "brief": "十七岁那年，爷爷亲手砍掉了我的手指，从此，我便正式成为一名敛骨人1",
-        "imgUrl": "https://cdn.motieimg.com/book/0011/112515/1.jpg?"
-      },
-      {
-        "name": "重生主神混都市",
-        "author": "神爱朵朵1",
-        "brief": "十七岁那年，爷爷亲手砍掉了我的手指，从此，我便正式成为一名敛骨人1",
-        "imgUrl": "https://cdn.motieimg.com/book/0010/102744/1.jpg?"
-      },
-      {
-        "name": "圣灵千秋之无宗传",
-        "author": "神爱朵朵1",
-        "brief": "十七岁那年，爷爷亲手砍掉了我的手指，从此，我便正式成为一名敛骨人1",
-        "imgUrl": "https://cdn.motieimg.com/book/0010/106228/1.jpg?"
-      }
-    ]
+    }
   }
 }
