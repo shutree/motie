@@ -13,28 +13,31 @@
 </template>
 
 <script>
-import Swiper from 'swiper';
+import Swiper from "swiper";
 
 export default {
   data() {
-    return {
-      bannerData: [
-        { imgUrl: 'https://pic.motieimg.com/img/153983461438375789_700_240.jpg'},
-        { imgUrl: 'http://pic.motieimg.com/img/151617971035306616_700_240.jpg'},
-        { imgUrl: 'https://pic.motieimg.com/img/15398273263201769_700_240.jpg'}
-      ]
+    return {};
+  },
+  computed: {
+    bannerData() {
+      let homeCardsData = this.$store.getters.homeCardsData;
+      return homeCardsData.banner;
     }
   },
-  mounted: function () {
-    let zy_Swiper = new Swiper('.zy-Carousel-swiper-container', {
-      autoplay: true
-    });
+  updated: function() {
+    let zy_Carousel_swiper;
+    if (!zy_Carousel_swiper) {
+      zy_Carousel_swiper = new Swiper(".zy-Carousel-swiper-container", {
+        autoplay: true
+      });
+    }
   }
 };
 </script>
 
 <style lang="scss">
-  .Carousel{
-    overflow: hidden;
-  }
+.Carousel {
+  overflow: hidden;
+}
 </style>

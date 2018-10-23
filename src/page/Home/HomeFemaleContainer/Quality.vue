@@ -23,6 +23,8 @@
   </div>
 </template>
 
+//此组件可以废除
+
 <script>
   export default {
     data() {

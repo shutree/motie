@@ -1,6 +1,11 @@
 {
   "code": 200,
   "cards": {
+    "banner": [
+      { "imgUrl": "https://pic.motieimg.com/img/153983461438375789_700_240.jpg"},
+      { "imgUrl": "http://pic.motieimg.com/img/151617971035306616_700_240.jpg"},
+      { "imgUrl": "https://pic.motieimg.com/img/15398273263201769_700_240.jpg"}
+    ],
     "recommendBooks": [
       {
         "name": "都市超级修仙人",
@@ -13,52 +18,31 @@
       {
         "name": "女总裁的医品高手",
         "imgUrl": "https://cdn.motieimg.com/book/0011/111365/1.jpg?"
-      },
-      {
-        "name": "都市超级修仙人",
-        "imgUrl": "https://cdn.motieimg.com/book/0009/99331/1.jpg?"
-      },
-      {
-        "name": "岭南鬼术",
-        "imgUrl": "https://cdn.motieimg.com/book/0011/110545/1.jpg?"
-      },
-      {
-        "name": "女总裁的医品高手",
-        "imgUrl": "https://cdn.motieimg.com/book/0011/111365/1.jpg?"
-      },
-      {
-        "name": "都市超级修仙人",
-        "imgUrl": "https://cdn.motieimg.com/book/0009/99331/1.jpg?"
-      },
-      {
-        "name": "岭南鬼术",
-        "imgUrl": "https://cdn.motieimg.com/book/0011/110545/1.jpg?"
-      },
-      {
-        "name": "女总裁的医品高手",
-        "imgUrl": "https://cdn.motieimg.com/book/0011/111365/1.jpg?"
       }
     ],
-    "本期主打分类": [
-      {
-        "name": "医品尖兵",
-        "author": "周阳",
-        "brief": "...",
-        "imgUrl": "https://cdn.motieimg.com/book/0010/106584/1.jpg?"
-      },
-      {
-        "name": "无人可逃",
-        "author": "周阳",
-        "brief": "...",
-        "imgUrl": "https://cdn.motieimg.com/book/0011/110067/2.jpg?"
-      },
-      {
-        "name": "蛮荒化龙决",
-        "author": "周阳",
-        "brief": "...",
-        "imgUrl": "https://cdn.motieimg.com/book/0010/107521/1.jpg?"
-      }
-    ],
+    "leadingBooks": {
+      "title": "本期主打分类",
+      "books":[
+        {
+          "name": "医品尖兵",
+          "author": "周阳",
+          "brief": "...",
+          "imgUrl": "https://cdn.motieimg.com/book/0010/106584/1.jpg?"
+        },
+        {
+          "name": "无人可逃",
+          "author": "周阳",
+          "brief": "...",
+          "imgUrl": "https://cdn.motieimg.com/book/0011/110067/2.jpg?"
+        },
+        {
+          "name": "蛮荒化龙决",
+          "author": "周阳",
+          "brief": "...",
+          "imgUrl": "https://cdn.motieimg.com/book/0010/107521/1.jpg?"
+        }
+      ]
+    },
     "书友收藏":[
       {
         "name": "医品尖兵",

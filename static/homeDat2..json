@@ -1,0 +1,74 @@
+{
+  "code": 200,
+  "cards": {
+    "bannerBooks": {
+      "title": "轮播图广告",
+      "books":[
+        {
+          "name": "医品尖兵",
+          "author": "周阳",
+          "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
+          "imgUrl": "https://cdn.motieimg.com/book/0010/106584/1.jpg?"
+        },
+        {
+          "name": "无人可逃",
+          "author": "周阳",
+          "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
+          "imgUrl": "https://cdn.motieimg.com/book/0011/110067/2.jpg?"
+        },
+        {
+          "name": "蛮荒化龙决",
+          "author": "周阳",
+          "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
+          "imgUrl": "https://cdn.motieimg.com/book/0010/107521/1.jpg?"
+        }
+      ]
+    },
+    "leadingBooks": {
+      "title": "本期主打分类",
+      "books":[
+        {
+          "name": "医品尖兵",
+          "author": "周阳",
+          "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
+          "imgUrl": "https://cdn.motieimg.com/book/0010/106584/1.jpg?"
+        },
+        {
+          "name": "无人可逃",
+          "author": "周阳",
+          "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
+          "imgUrl": "https://cdn.motieimg.com/book/0011/110067/2.jpg?"
+        },
+        {
+          "name": "蛮荒化龙决",
+          "author": "周阳",
+          "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
+          "imgUrl": "https://cdn.motieimg.com/book/0010/107521/1.jpg?"
+        }
+      ]
+    },
+    "demoBooks": {
+      "title": "本期主打分类",
+      "books":[
+        {
+          "name": "医品尖兵",
+          "author": "周阳",
+          "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
+          "imgUrl": "https://cdn.motieimg.com/book/0010/106584/1.jpg?"
+        },
+        {
+          "name": "无人可逃",
+          "author": "周阳",
+          "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
+          "imgUrl": "https://cdn.motieimg.com/book/0011/110067/2.jpg?"
+        },
+        {
+          "name": "蛮荒化龙决",
+          "author": "周阳",
+          "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
+          "imgUrl": "https://cdn.motieimg.com/book/0010/107521/1.jpg?"
+        }
+      ]
+    }
+  }
+}

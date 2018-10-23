@@ -6,11 +6,10 @@
     <PersonalRecommend></PersonalRecommend>
     <MainClassification></MainClassification>
     <Collection></Collection>
-    <Quality></Quality>
+    <!-- <Quality></Quality> -->
     <Wireless></Wireless>
-    <Newbook></Newbook>
+    <ShopWindowTypeOne></ShopWindowTypeOne>
     <Discover></Discover>
-
 
   </div>
 </template>
@@ -22,9 +21,9 @@ import RecommendBox from "./RecommendBox.vue";
 import PersonalRecommend from "./PersonalRecommend.vue";
 import MainClassification from "./MainClassification.vue";
 import Collection from "./Collection.vue";
-import Quality from "./Quality.vue";
+// import Quality from "./Quality.vue";
 import Wireless from "./Wireless.vue"
-import Newbook from "./Newbook.vue"
+import ShopWindowTypeOne from "./ShopWindowTypeOne.vue"
 import Discover from "./Discover.vue"
 
 export default {
@@ -35,9 +34,9 @@ export default {
     PersonalRecommend,
     MainClassification,
     Collection,
-    Quality,
+    // Quality,
     Wireless,
-    Newbook,
+    ShopWindowTypeOne,
     Discover
   }
 };
