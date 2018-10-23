@@ -4,9 +4,49 @@
       <router-link to="/" slot="left">
         <mt-button icon="back"></mt-button>
       </router-link>
-      <mt-button icon="more" slot="right">
+      <mt-button icon="more" slot="right" @click="shows = !shows">
       </mt-button>
     </mt-header>
+    <div class="shadow" v-show="shows"></div>
+
+    <transition
+      enter-active-class="animated slideInDown faster"
+      leave-active-class="animated slideOutUp faster"
+    >
+      <div class="menu" v-show="shows">
+        <ul class="support sl">
+          <li>
+            <font-awesome-icon icon="home" />
+            <span>首页</span>
+          </li>
+          <li>
+            <font-awesome-icon icon="list-alt" />
+            <span>分类</span>
+          </li>
+          <li>
+            <font-awesome-icon icon="book" />
+            <span>完本</span>
+          </li>
+          <li>
+            <font-awesome-icon icon="sort-amount-up" />
+            <span>排行</span>
+          </li>
+          <li>
+            <font-awesome-icon icon="shopping-basket" />
+            <span>免费</span>
+          </li>
+          <li>
+            <font-awesome-icon icon="server" />
+            <span>书架</span>
+          </li>
+          <li>
+            <font-awesome-icon icon="book-reader" />
+            <span>账户</span>
+          </li>
+        </ul>
+      </div>
+    </transition>
+
     <div class="book_mod">
       <div class="cover"><img src="https://cdn.motieimg.com/book/0011/113477/1.jpg?x-oss-process=image/resize,m_lfit,h_140,w_100">
             </div>
@@ -55,11 +95,11 @@
             </h3>
             <ul class="support">
               <li>
-                <font-awesome-icon icon="coffee" />
+                <font-awesome-icon icon="coins" />
                 <span>磨铁币</span>
               </li>
               <li>
-                <font-awesome-icon icon="coffee" />
+                <font-awesome-icon icon="certificate" />
                 <span>鲜花</span>
               </li>
               <li>
@@ -67,15 +107,15 @@
                 <span>美酒</span>
               </li>
               <li>
-                <font-awesome-icon icon="coffee" />
+                <font-awesome-icon icon="award" />
                 <span>钻石</span>
               </li>
               <li>
-                <font-awesome-icon icon="coffee" />
+                <font-awesome-icon icon="chess-queen" />
                 <span>皇冠</span>
               </li>
               <li>
-                <font-awesome-icon icon="coffee" />
+                <font-awesome-icon icon="truck-pickup" />
                 <span>跑车</span>
               </li>
               <li>
@@ -144,16 +184,24 @@
 </template>
 
 <script>
-import { Header } from 'mint-ui';
-import './details.scss'
-  export default {
-    data(){
-        return {
-            msg:''
-        }
+import { Header } from "mint-ui";
+import "./details.scss";
+export default {
+  data() {
+    return {
+      msg: "",
+      display: true,
+      shows: true
+    };
+  },
+  methods: {
+    showMenu() {
+      console.log(111);
+      this.shows = !this.shows;
+      console.log(this.shows);
     }
   }
+};
 </script>
 <style lang="scss">
-
 </style>
