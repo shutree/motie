@@ -1,5 +1,83 @@
-.mint-header-button.is-righ{
+.mint-header{
+  z-index:300;
+}
+
+
+.details{
   position:relative;
+  .shadow{
+    // display:none;
+    position:absolute;
+    top:40px;
+    left:0;
+    right:0;
+    bottom:0;
+    background:#eee;
+    opacity:0.4;
+  }
+  .support{
+      li:nth-child(1){
+        svg{
+          color:#CC3333;
+        }
+      }
+      li:nth-child(2){
+        svg{
+          color:#BB8C44;
+        }
+      }
+      li:nth-child(3){
+        svg{
+          color:#2BD5B3;
+        }
+      }
+      li:nth-child(4){
+        svg{
+          color:#E6E61A;
+        }
+      }
+      li:nth-child(5){
+        svg{
+          color:#91D52B;
+        }
+      }
+      li:nth-child(6){
+        svg{
+          color:#44BBBB;
+        }
+      }
+      li:nth-child(7){
+        svg{
+          color:#6F2BD5;
+        }
+      }
+
+    }
+  .menu{
+    // display:none;
+    background-color:#fff;
+    position:absolute;
+    top:40px;
+    left:0;
+    z-index:200;
+    width:100%;
+    
+    ul{
+      border-top:3px solid #999;
+      overflow:hidden;
+      li{
+        margin:20px 0;
+        float:left;
+        width:25%;
+        text-align:center;
+        line-height:30px;
+        span{
+          display:block;
+          text-align:center;
+        }
+      }
+    }
+  }
 }
 .book_mod {
   padding-bottom: 10px;
