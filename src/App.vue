@@ -5,7 +5,6 @@
 </template>
 
 <script>
-
 import Vue from "vue";
 import Mint from "mint-ui";
 import axios from "axios";

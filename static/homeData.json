@@ -28,58 +28,196 @@
       "title": "主编推荐",
       "books": [
         {
-          "name": "医品尖兵",
-          "author": "周阳",
+          "name": "医品尖兵1",
+          "author": "周阳1",
           "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
           "imgUrl": "https://cdn.motieimg.com/book/0010/106584/1.jpg?"
         },
         {
-          "name": "无人可逃",
+          "name": "无人可逃2",
           "author": "周阳",
           "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
           "imgUrl": "https://cdn.motieimg.com/book/0011/110067/2.jpg?"
         },
         {
-          "name": "蛮荒化龙决",
+          "name": "蛮荒化龙决3",
           "author": "周阳",
           "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
           "imgUrl": "https://cdn.motieimg.com/book/0010/107521/1.jpg?"
         },
         {
-          "name": "医品尖兵",
+          "name": "医品尖兵4",
           "author": "周阳",
           "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
           "imgUrl": "https://cdn.motieimg.com/book/0010/106584/1.jpg?"
         },
         {
-          "name": "无人可逃",
+          "name": "无人可逃5",
           "author": "周阳",
           "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
           "imgUrl": "https://cdn.motieimg.com/book/0011/110067/2.jpg?"
         },
         {
-          "name": "蛮荒化龙决",
+          "name": "蛮荒化龙决6",
           "author": "周阳",
           "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
           "imgUrl": "https://cdn.motieimg.com/book/0010/107521/1.jpg?"
         },
         {
-          "name": "医品尖兵",
+          "name": "医品尖兵7",
           "author": "周阳",
           "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
           "imgUrl": "https://cdn.motieimg.com/book/0010/106584/1.jpg?"
         },
         {
-          "name": "无人可逃",
+          "name": "无人可逃8",
           "author": "周阳",
           "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
           "imgUrl": "https://cdn.motieimg.com/book/0011/110067/2.jpg?"
         },
         {
-          "name": "蛮荒化龙决",
+          "name": "蛮荒化龙决9",
           "author": "周阳",
           "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
           "imgUrl": "https://cdn.motieimg.com/book/0010/107521/1.jpg?"
+        }
+      ]
+    },
+    "goldLeague": {
+      "title": "黄金联赛",
+      "books": [
+        {
+          "name": "重生之钱吞天下",
+          "author": "周阳",
+          "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
+          "imgUrl": "https://cdn.motieimg.com/book/0011/110471/1.jpg?"
+        },
+        {
+          "name": "天地仙魔",
+          "author": "周阳",
+          "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
+          "imgUrl": "https://cdn.motieimg.com/book/0011/114815/1.jpg?"
+        },
+        {
+          "name": "都市之逍遥诸天",
+          "author": "周阳",
+          "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
+          "imgUrl": "https://cdn.motieimg.com/book/0010/105721/2.jpg?"
+        }
+      ]
+    },
+    "mainBooks": {
+      "title": "本期主打分类",
+      "books": [
+        {
+          "name": "重生之钱吞天下",
+          "author": "周阳",
+          "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
+          "imgUrl": "https://cdn.motieimg.com/book/0011/110471/1.jpg?"
+        },
+        {
+          "name": "天地仙魔",
+          "author": "周阳",
+          "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
+          "imgUrl": "https://cdn.motieimg.com/book/0011/114815/1.jpg?"
+        },
+        {
+          "name": "都市之逍遥诸天",
+          "author": "周阳",
+          "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
+          "imgUrl": "https://cdn.motieimg.com/book/0010/105721/2.jpg?"
+        }
+      ]
+    },
+    "bookFriendCollection": {
+      "title": "书友收藏",
+      "books": [
+        {
+          "name": "重生之钱吞天下",
+          "author": "周阳",
+          "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
+          "imgUrl": "https://cdn.motieimg.com/book/0011/110471/1.jpg?"
+        },
+        {
+          "name": "天地仙魔",
+          "author": "周阳",
+          "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
+          "imgUrl": "https://cdn.motieimg.com/book/0011/114815/1.jpg?"
+        },
+        {
+          "name": "都市之逍遥诸天",
+          "author": "周阳",
+          "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
+          "imgUrl": "https://cdn.motieimg.com/book/0010/105721/2.jpg?"
+        }
+      ]
+    },
+    "finishedBooks": {
+      "title": "完本精品",
+      "books": [
+        {
+          "name": "重生之钱吞天下",
+          "author": "周阳",
+          "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
+          "imgUrl": "https://cdn.motieimg.com/book/0011/110471/1.jpg?"
+        },
+        {
+          "name": "天地仙魔",
+          "author": "周阳",
+          "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
+          "imgUrl": "https://cdn.motieimg.com/book/0011/114815/1.jpg?"
+        },
+        {
+          "name": "都市之逍遥诸天",
+          "author": "周阳",
+          "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
+          "imgUrl": "https://cdn.motieimg.com/book/0010/105721/2.jpg?"
+        }
+      ]
+    },
+    "hotDirection": {
+      "title": "无线风向榜",
+      "books": [
+        {
+          "name": "重生之钱吞天下",
+          "author": "周阳",
+          "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
+          "imgUrl": "https://cdn.motieimg.com/book/0011/110471/1.jpg?"
+        },
+        {
+          "name": "天地仙魔",
+          "author": "周阳",
+          "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
+          "imgUrl": "https://cdn.motieimg.com/book/0011/114815/1.jpg?"
+        },
+        {
+          "name": "都市之逍遥诸天",
+          "author": "周阳",
+          "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
+          "imgUrl": "https://cdn.motieimg.com/book/0010/105721/2.jpg?"
+        }
+      ]
+    },
+    "newBooksArrival": {
+      "title": "新书抢先",
+      "books": [
+        {
+          "name": "重生之钱吞天下",
+          "author": "周阳",
+          "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
+          "imgUrl": "https://cdn.motieimg.com/book/0011/110471/1.jpg?"
+        },
+        {
+          "name": "天地仙魔",
+          "author": "周阳",
+          "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
+          "imgUrl": "https://cdn.motieimg.com/book/0011/114815/1.jpg?"
+        },
+        {
+          "name": "都市之逍遥诸天",
+          "author": "周阳",
+          "brief": "阿斯顿发大水发告诉对方的发生的范德萨范德萨发大",
+          "imgUrl": "https://cdn.motieimg.com/book/0010/105721/2.jpg?"
         }
       ]
     }

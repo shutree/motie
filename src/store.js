@@ -5,13 +5,17 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    cards: null
+    cards: null,
+    cardsNeedButton: [
+      { cardName: 'goldLeague', buttonText: '更多参赛作品>'},
+      { cardName: 'mainBooks', buttonText: '更多参赛作品>2'},
+      { cardName: 'finishedBooks', buttonText: '更多参赛作品>3'}
+    ]
   },
 
   getters: {
-    cards: state => {
-      return state.cards
-    }
+    cards: state => state.cards,
+    cardsNeedButton: state => state.cardsNeedButton
   },
 
   mutations: {
