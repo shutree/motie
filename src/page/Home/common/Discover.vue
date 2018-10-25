@@ -10,7 +10,7 @@
     <div class="erwei">
     <h6>关注官方微信公众号【磨铁小说】，方便下次阅读</h6>
     <div class="erweima">
-        <img src="https://cdn.motieimg.com/book/0011/111365/1.jpg?" />
+        <img src="http://pic.motieimg.com/img/152638451755094592_258_258.jpg" />
         <p>--微信内可长按识别--</p>
     </div>
     </div>

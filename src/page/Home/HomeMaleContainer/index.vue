@@ -23,11 +23,11 @@
 </template>
 
 <script>
-import Carousel from "./Carousel.vue";
-import CategoryBar from "./CategoryBar.vue";
-import CardTwo from "./CardTwo.vue";
-import CardThree from "./CardThree.vue";
-import Discover from "./Discover.vue";
+import Carousel from "../common/Carousel.vue";
+import CategoryBar from "../common/CategoryBar.vue";
+import CardTwo from "../common/CardTwo.vue";
+import CardThree from "../common/CardThree.vue";
+import Discover from "../common/Discover.vue";
 
 export default {
   data() {

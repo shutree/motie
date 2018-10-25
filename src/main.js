@@ -11,15 +11,14 @@ import 'swiper/dist/css/swiper.css';
 import 'animate.css/animate.min.css';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faCoffee,faHome,faListAlt,faBook,faSortAmountUp,faShoppingBasket,faServer,faBookReader,faCoins,faChessQueen,faAward,faTruckPickup,faCertificate} from '@fortawesome/free-solid-svg-icons';
+import { faCoffee,faHome,faListAlt,faBook,faSortAmountUp,faShoppingBasket,faServer,faBookReader,faCoins,faChessQueen,faAward,faTruckPickup,faCertificate,faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
-library.add(faCoffee,faHome,faListAlt,faBook,faSortAmountUp,faShoppingBasket,faServer,faBookReader,faCoins,faChessQueen,faAward,faTruckPickup,faCertificate)
+library.add(faCoffee,faHome,faListAlt,faBook,faSortAmountUp,faShoppingBasket,faServer,faBookReader,faCoins,faChessQueen,faAward,faTruckPickup,faCertificate,faUser)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.config.productionTip = false;
 
 Vue.use(VueLazyLoad);
-
 
 
 /* eslint-disable no-new */

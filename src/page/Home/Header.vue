@@ -7,13 +7,13 @@
       <router-link class="nav-link" activeClass="active" :key="index" v-for="(item, index) in tabs" :to="item.link">{{item.text}}</router-link>
     </nav>
     <router-link to="/login">
-      <font-awesome-icon icon="coffee" class="login_icon" />
-
+      <font-awesome-icon icon="user" class="login_icon" />
     </router-link>
   </div>
 </template>
 
 <script>
+
 export default {
   data() {
     return {

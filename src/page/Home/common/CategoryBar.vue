@@ -1,7 +1,12 @@
 <template>
-  <div class="CategoryBar">
-    <input type="text">
-    <ul class="m-n-channel">
+  <div class="CategoryBar cbig">
+    <!-- <mt-search
+      cancel-text="取消"
+      placeholder="搜索"
+      class="seach"
+      >
+    </mt-search> -->
+    <ul>
       <li :key="index" v-for="( item, index ) in items">
         <router-link :to="item.to">
           <img :src="item.imgUrl" /><span>{{item.title}}</span>
@@ -30,16 +35,20 @@ export default {
 <style lang="scss">
   .CategoryBar{
     text-align: center;
-    padding: 20px;
+    padding: 10px;
+    .seach{
+      height:60px;
+    }
     ul{
       display: flex;
-      justify-content: space-between;
+      margin-top:10px;
+      justify-content: space-around;
       li{
         a{
           display: flex;
           flex-direction: column;
           img{
-            width: 60px;
+            width: 40px;
           }
         }
       }
