@@ -1,6 +1,11 @@
 <template>
-  <div class="CategoryBar">
-    <input type="text">
+  <div class="CategoryBar cbig">
+    <mt-search
+      cancel-text="取消"
+      placeholder="搜索"
+      class="seach"
+      >
+    </mt-search>
     <ul class="m-n-channel">
       <li :key="index" v-for="( item, index ) in items">
         <router-link :to="item.to">
@@ -30,9 +35,13 @@ export default {
 <style lang="scss">
   .CategoryBar{
     text-align: center;
-    padding: 20px;
+    padding: 10px;
+    .seach{
+      height:60px;
+    }
     ul{
       display: flex;
+      margin-top:10px;
       justify-content: space-between;
       li{
         a{
