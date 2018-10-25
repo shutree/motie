@@ -4,6 +4,8 @@ import Vue from 'vue';
 import App from './App';
 import router from './router';
 import store from './store';
+import VueLazyLoad from 'vue-lazyload';
+
 
 import 'swiper/dist/css/swiper.css';
 import 'animate.css/animate.min.css';
@@ -15,6 +17,8 @@ library.add(faCoffee,faHome,faListAlt,faBook,faSortAmountUp,faShoppingBasket,faS
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.config.productionTip = false;
+
+Vue.use(VueLazyLoad);
 
 
 

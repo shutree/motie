@@ -1,15 +1,18 @@
 <template>
-  <div class="Quality">
-    <h4><span>完本精品</span></h4>
+  <div class="Newbook">
+    <h4>
+      <span>新书抢先</span>
+    </h4>
+
     <ul>
-      <li class="li" :key="index" v-for="(book, index) in books">
+      <li class="li" :key="index" v-for="(card, index) in 3">
         <div class="left">
-          <img :src='book.imgUrl' height="133" width="100" alt=""/>
+          <img src="https://cdn.motieimg.com/book/0011/111365/1.jpg?" height="133" width="100" alt="" />
         </div>
         <div class="right">
-          <h4>{{book.name}}</h4>
-          <p>{{book.author}}</p>
-          <p>{{book.brief}}
+          <h4>娇妻如云</h4>
+          <p>兰泽</p>
+          <p>萌软小娘子和威武大夫君的故事。姚芸儿从没想过自己会嫁给一个屠夫，而且还比她年长十多岁
             <mt-button class="liji" size="small">立即阅读</mt-button>
           </p>
           <p>
@@ -19,54 +22,26 @@
         </div>
       </li>
     </ul>
-    <mt-button class="bt" size="large">进入完本频道></mt-button>
+    
   </div>
 </template>
 
-//此组件可以废除
-
 <script>
-  export default {
-    data() {
-      return {
-        books: [
-          {
-            name: '丧尸爆发之全家求生路',
-            author: '神爱朵朵',
-            brief: '十七岁那年，爷爷亲手砍掉了我的手指，从此，我便正式成为一名敛骨人',
-            imgUrl: 'https://cdn.motieimg.com/book/0003/34295/5.jpg?'
-          },
-          {
-            name: '特种狂兵',
-            author: '剑锋同志',
-            brief: '十七岁那年，爷爷亲手砍掉了我的手指，从此，我便正式成为一名敛骨人',
-            imgUrl: 'https://cdn.motieimg.com/book/0008/85082/2.jpg?'
-          },
-          {
-            name: '黄泉诡局',
-            author: '小三胖子',
-            brief: '十七岁那年，爷爷亲手砍掉了我的手指，从此，我便正式成为一名敛骨人',
-            imgUrl: 'https://cdn.motieimg.com/book/0010/106115/1.jpg?'
-          }
-        ]
-      }
-    }
-  };
+export default {};
 </script>
 
 <style lang="scss">
+.Newbook {
   .k {
     background-color: #fff;
     color: red;
   }
-
   h4 {
     height: 30px;
     span {
       border-bottom: 2px solid red;
     }
   }
-
   .shc {
     display: flex;
     li {
@@ -77,11 +52,9 @@
       }
     }
   }
-
   .li {
     overflow: hidden;
   }
-
   .left {
     float: left;
     height: 160px;
@@ -99,7 +72,6 @@
       margin: auto;
     }
   }
-
   .right {
     float: left;
     height: 150px;
@@ -122,8 +94,7 @@
       }
       .liji {
         position: absolute;
-        top: 50px;
-        right:20px;
+        top: 35px;
         background-color: #fff;
         border: 1px solid red;
         color: red;
@@ -139,8 +110,8 @@
       color: #ccc;
     }
   }
-
   .bt {
     color: red;
   }
+}
 </style>

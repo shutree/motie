@@ -4,9 +4,12 @@
       <img src="http://pic.motieimg.com/img/14878507417971314_159_34.png">
     </div>
     <nav class="nav">
-      <router-link class="nav-link" :key="index" v-for="(item, index) in cate" :to="item.link">{{item.text}}</router-link>
+      <router-link class="nav-link" activeClass="active" :key="index" v-for="(item, index) in tabs" :to="item.link">{{item.text}}</router-link>
     </nav>
-    <font-awesome-icon icon="coffee" class="login_icon" />
+    <router-link to="/login">
+      <font-awesome-icon icon="coffee" class="login_icon" />
+
+    </router-link>
   </div>
 </template>
 
@@ -14,8 +17,8 @@
 export default {
   data() {
     return {
-      msg: "",
-      cate: [
+      activeTabIndex: 0,
+      tabs: [
         { text: "女版", link: "mt_famale" },
         { text: "男版", link: "mt_male" },
         { text: "出版", link: "mt_publish" }
@@ -39,21 +42,23 @@ export default {
     }
   }
   .nav {
-    height: 4rem;
-    line-height: 4rem;
     overflow: hidden;
     text-align: center;
     font-size: 1.5rem;
     color: #666;
     a {
-      width: 3rem;
-      display: inline-block;
-      text-align: center;
-      text-decoration: none;
-      color: #666;
-      line-height: 4rem;
-      overflow: hidden;
-      font-size: 15px;
+    height: 25px;
+    box-sizing: border-box;
+    width: 2.5rem;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #666;
+    overflow: hidden;
+    font-size: 15px;
+    }
+    .active{
+      border-bottom: 2px solid red;
     }
   }
   .login_icon{
