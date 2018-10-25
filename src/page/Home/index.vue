@@ -41,6 +41,7 @@ export default {
   .app_downloag_banner {
     position: relative;
     background: gray;
+    overflow: hidden;
     img {
       width: 100%;
     }
