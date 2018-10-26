@@ -1,5 +1,7 @@
 # motie-project
 
+finish 10 23
+
 > A Vue.js project
 
 ## Build Setup
