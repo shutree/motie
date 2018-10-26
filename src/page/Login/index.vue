@@ -26,7 +26,7 @@
 				</h4>
 				<a>忘记密码?</a>
 			</div>
-			<input type="submit" value="登录" class="submit" @click="judgeCode" />
+			<input type="submit" value="登录" class="submit" @click="sendMsgToServer()" />
 			<div class="coor">
 				<h4>合作方一键登录</h4>
 				<font-awesome-icon icon="coffee" />
@@ -52,15 +52,28 @@ export default {
   methods: {
     judgeCode() {
       let writeCode = this.code;
-
       let codes = document.querySelector(".code span").innerText;
-      console.log(codes, writeCode);
       if (writeCode !== codes) {
         alert("验证码错误");
         return false;
       }
-
       this.$router.push({ path: "/" });
+    },
+    sendMsgToServer() {
+      console.log("send to server ");
+
+      this.$axios({
+        method: "post",
+        url: "/login",
+        data: {
+          user: 1,
+          pwd: 2
+        }
+      })
+        .then(res => {
+          console.log(res.data);
+        })
+        .catch(err => console.log(err));
     }
   }
 };
